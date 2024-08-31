@@ -4,7 +4,7 @@ import TopHeader from "./TopHeader";
 
 const Header = () => {
   return (
-    <div className="bg-black container mx-auto w-full">
+    <div className="bg-black mx-auto w-full">
       {/* TopHeder */}
       <TopHeader />
       {/* Navbar */}
