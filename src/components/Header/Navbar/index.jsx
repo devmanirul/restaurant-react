@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar text-white">
+      {/* items */}
       <div className="flex-1 gap-3 border-t border-b py-2">
         <NavLink className="btn btn-ghost bg-lightBlack px-2 py-1">
           Homes
