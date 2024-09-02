@@ -19,7 +19,7 @@ const TopHeader = () => {
           <div className="text-white">
             <GrCart />
           </div>
-          <button className="bg-cream px-3 py-5">Reservation</button>
+          <button className="bg-cream text-black px-3 py-5">Reservation</button>
         </div>
       </div>
     </>
