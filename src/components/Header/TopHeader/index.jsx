@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderLogo from "../../../assets/images/HeaderLogo.svg";
-// import { GrCart } from "react-icons/gr";
+import { GrCart } from "react-icons/gr";
 
 const TopHeader = () => {
   return (
@@ -15,8 +15,10 @@ const TopHeader = () => {
         <div className="">
           <img src={HeaderLogo} alt="" className="" />
         </div>
-        <div className="">
-          <img src="" alt="" className="" />
+        <div className="flex flex-row justify-center items-center gap-8">
+          <div className="text-white">
+            <GrCart />
+          </div>
           <button className="bg-cream px-3 py-5">Reservation</button>
         </div>
       </div>
