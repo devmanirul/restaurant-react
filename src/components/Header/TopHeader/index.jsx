@@ -16,7 +16,7 @@ const TopHeader = () => {
           <img src={HeaderLogo} alt="" className="" />
         </div>
         <div className="flex flex-row justify-center items-center gap-8">
-          <div className="text-white">
+          <div className="text-white text-2xl">
             <GrCart />
           </div>
           <button className="bg-cream text-black px-3 py-5">Reservation</button>
