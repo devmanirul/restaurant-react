@@ -36,7 +36,7 @@ const Navbar = () => {
           ))}
         </div>
         {/* right navbar */}
-        <div className="">
+        {/* <div className="">
           <link to={"#"}>
             <FaInstagram />
           </link>
@@ -49,7 +49,7 @@ const Navbar = () => {
           <link to={"#"}>
             <FaPinterest />
           </link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
