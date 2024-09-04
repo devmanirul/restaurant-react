@@ -6,7 +6,7 @@ export default {
       colors: {
         cream: "#E1B168",
         black: "#292E36",
-        slate: "#555555",
+        slateMid: "#555555",
         lightBlack: "#343942",
         lightCream: "#ff8f5",
       },

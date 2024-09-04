@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderLogo from "../../../assets/images/HeaderLogo.svg";
 import { GrCart } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 const TopHeader = () => {
   return (
@@ -19,7 +20,7 @@ const TopHeader = () => {
           <div className="text-white text-2xl">
             <GrCart />
           </div>
-          <button className="bg-cream text-black px-3 py-5">Reservation</button>
+          <Link to={"/reservation"} className="bg-cream text-black px-3 py-5">Reservation</Link>
         </div>
       </div>
     </>

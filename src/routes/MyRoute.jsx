@@ -3,6 +3,10 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import OurMenu from "../pages/OurMenu";
 import ErrorPage from "../pages/Error";
+import Reservation from "../pages/Reservation";
+import Gallery from "../pages/Gallery";
+import Contact from "../pages/Contact";
+import Blog from "../pages/Blog";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +21,22 @@ const router = createBrowserRouter([
   {
     path: "/menu",
     element: <OurMenu />,
+  },
+  {
+    path: "/reservation",
+    element: <Reservation />,
+  },
+  {
+    path: "/gallery",
+    element: <Gallery />,
+  },
+  {
+    path: "/blog",
+    element: <Blog />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
