@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "../../components/Header";
+import Banner from "../../components/Header/Banner";
 
 const Home = () => {
   return (
     <div>
       <Header />
-      <h1 className="text-5xl font-extrabold text-slate-900 py-10 text-center">HOME Page</h1>
+      <Banner />
     </div>
   );
 };

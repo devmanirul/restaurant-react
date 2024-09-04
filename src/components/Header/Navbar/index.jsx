@@ -36,7 +36,7 @@ const Navbar = () => {
           ))}
         </div>
         {/* right navbar */}
-        <div className="flex flex-row items-center gap-5 text-white text-2xl  pr-10">
+        <div className="flex flex-row items-center gap-5 text-white text-2xl">
           <Link to={"#"}>
             <FaInstagram />
           </Link>
