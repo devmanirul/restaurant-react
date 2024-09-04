@@ -20,7 +20,9 @@ const TopHeader = () => {
           <div className="text-white text-2xl">
             <GrCart />
           </div>
-          <Link to={"/reservation"} className="bg-cream text-black px-3 py-5">Reservation</Link>
+          <Link to={"/reservation"} className="bg-cream text-black px-3 py-5">
+            Reservation
+          </Link>
         </div>
       </div>
     </>

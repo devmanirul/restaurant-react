@@ -10,7 +10,6 @@ const OurMenu = () => {
       </h1>
     </div>
   );
-
 };
 
 export default OurMenu;
