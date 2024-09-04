@@ -23,12 +23,10 @@ const Banner = () => {
           </Link>
         </div>
         {/* right */}
-        <div className="w-full relative px-20 -bottom-16">
-          <div className="absolute -right-8 -top-10">
-            <img src={bgIcon} alt="" className="h-72" />
-          </div>
-          <div className="bg-slateMid p-7 flex justify-center rounded-t-full relative z-10">
-            <img src={bannerImage} alt="" className="rounded-t-full z-30" />
+        <div className="w-full relative px-20 -bottom-20">
+         
+          <div className="flex justify-center relative z-10">
+            <img src={bannerImage} alt="" className="z-30" />
           </div>
         </div>
       </div>
