@@ -7,9 +7,9 @@ const TopHeader = () => {
   return (
     <>
       {/* Top Header */}
-      <div className="flex flex-row justify-between items-center px-10 py-14 font-josefin container mx-auto">
+      <div className="flex flex-row justify-between items-center py-14 font-josefin container mx-auto">
         <div className="">
-          <p className="text-white border-2 border-cream px-3 py-5">
+          <p className="text-white border-2 border-cream px-3 py-5 cursor-pointer">
             Call - 987 654 321{" "}
           </p>
         </div>
@@ -17,7 +17,7 @@ const TopHeader = () => {
           <img src={HeaderLogo} alt="" className="" />
         </div>
         <div className="flex flex-row justify-center items-center gap-8">
-          <div className="text-white text-2xl">
+          <div className="text-white text-2xl  cursor-pointer">
             <GrCart />
           </div>
           <Link to={"/reservation"} className="bg-cream text-black px-3 py-5">
