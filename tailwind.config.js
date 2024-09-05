@@ -8,7 +8,7 @@ export default {
         black: "#292E36",
         slateMid: "#555555",
         lightBlack: "#343942",
-        lightCream: "#ff8f5",
+        lightCream: "#FFF8F5",
       },
       fontFamily: {
         josefin: ["Josefin Sans", "sans-serif"],
