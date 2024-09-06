@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import bannerImage from "../../../assets/images/Banner.svg";
-import bgIcon from "../../../assets/images/icon/bgIcon.svg";
 
 const Banner = () => {
   return (
@@ -24,7 +23,6 @@ const Banner = () => {
         </div>
         {/* right */}
         <div className="w-full relative px-20 -bottom-20">
-         
           <div className="flex justify-center relative z-10">
             <img src={bannerImage} alt="" className="z-30" />
           </div>
