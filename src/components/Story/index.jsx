@@ -44,7 +44,7 @@ const Story = () => {
               </p>
             </div>
             {/* mid */}
-            <div className="flex flex-row pt-5">
+            <div className="flex flex-row gap-3 pt-5">
               {/* left */}
               <div className="">
                 <h1 className="text-xl font-bold font-Cormorant text-black">
