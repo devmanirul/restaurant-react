@@ -22,11 +22,11 @@ const Story = () => {
         {/* story bottom */}
         <div className="pt-14 flex flex-row w-full">
           {/* left */}
-          <div className="w-5/12">
+          <div className="w-6/12">
             <img src={storyImage} alt="" className="" />
           </div>
           {/* mid */}
-          <div className="w-2/12 flex flex-row items-center justify-center">
+          <div className="w-1/12 flex flex-row items-center justify-center">
             <div className="border-r-2 bg-lightBlack h-full"></div>
           </div>
           {/* left */}
