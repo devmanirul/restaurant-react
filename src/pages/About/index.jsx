@@ -1,15 +1,14 @@
 import React from "react";
 import Header from "../../components/Header";
+import PageTitle from "../../components/PageTitle";
 
 const About = () => {
   return (
     <div>
       <Header />
-      <h1 className="text-5xl font-extrabold text-slate-900 py-10 text-center">
-        About Page
-      </h1>
+      <PageTitle title={"About Us"}/>
     </div>
   );
-};
+}; 
 
 export default About;
