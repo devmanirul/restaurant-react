@@ -4,7 +4,7 @@ import OutLineButton from "../OutLineButton";
 
 const Menu = () => {
   return (
-    <div className="flex flex-row gap-32 container mx-auto py-28">
+    <div className="flex flex-row gap-32 container mx-auto py-28 bg-white">
       {/* left */}
       <div className="w-4/12 flex flex-col gap-10">
         <div className="">
