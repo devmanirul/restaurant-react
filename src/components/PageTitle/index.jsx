@@ -1,10 +1,10 @@
 import React from "react";
 
-const PageTitle = ({title}) => {
+const PageTitle = ({ title }) => {
   return (
     <div className="bg-black py-24 text-center">
       <div className="container mx-auto">
-        <h1 className="font-Cormorant font-bold text-6xl text-white">
+        <h1 className="font-Cormorant font-bold text-6xl text-white border-y border-cream inline">
           {title}
         </h1>
       </div>
