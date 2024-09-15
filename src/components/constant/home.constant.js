@@ -29,7 +29,7 @@ const storyList = [
 const testimonialData = [
   {
     id: 1,
-    img: "avater1",
+    img: avater1,
     name: "Daniyal Sppra",
     country: "Newyork",
     comment:
@@ -37,7 +37,7 @@ const testimonialData = [
   },
   {
     id: 2,
-    img: "avater2",
+    img: avater2,
     name: "Natasha D",
     country: "Salt Lake City",
     comment:
@@ -45,10 +45,11 @@ const testimonialData = [
   },
   {
     id: 3,
-    img: "avater3",
+    img: avater3,
     name: "Jack Sparrow",
     country: "San Diego",
-    comment: "It is professional, considers everyone's time, can think about the  There are many  passages whole probls small niche, friendly.",
+    comment:
+      "It is professional, considers everyone's time, can think about the  There are many  passages whole probls small niche, friendly.",
   },
 ];
 

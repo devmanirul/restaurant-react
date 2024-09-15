@@ -1,10 +1,12 @@
 import React from "react";
+import TestimonialCard from "./TestimonialCard";
 
 const Testimonial = () => {
   return (
     <div className="bg-black">
-      <div className="flex flex-row p-10 gap-28">
-        <div className="w-full">
+      <div className="p-10 gap-28 ">
+        {/* heading section */}
+        <div className="w-full ">
           <h3 className="text-white text-lg font-semibold font-Cormorant">
             Testimonial
           </h3>
@@ -15,6 +17,12 @@ const Testimonial = () => {
             We love to hear from customers, so please leave a comment or say
             hello in an email.
           </p>
+        </div>
+        {/* Carosol container */}
+        <div className="flex flex-row gap-5 w-full">
+          <TestimonialCard />
+          <TestimonialCard />
+          <TestimonialCard />
         </div>
       </div>
     </div>
