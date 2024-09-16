@@ -19,7 +19,7 @@ const Testimonial = () => {
       <div className="container mx-auto py-12 gap-28">
         {/* heading section */}
         <div className="w-full ">
-          <h3 className="text-white text-lg font-semibold font-Cormorant">
+          <h3 className="text-white text-lg font-semibold font-Cormorant  border-y border-cream inline">
             Testimonial
           </h3>
           <h1 className="text-white text-2xl font-bold font-Cormorant">
