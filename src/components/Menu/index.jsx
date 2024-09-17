@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import demo from "../../assets/images/menu-item/Starters/starter1.svg";
+import MenuLeft from "../../assets/images/menu-item/Menuleft.svg";
 import OutLineButton from "../OutLineButton";
 import MenuList from "./MenuList";
 
@@ -27,7 +27,7 @@ const Menu = () => {
           </p>
         </div>
         <div className="">
-          <img src={demo} alt="" className="" />
+          <img src={MenuLeft} alt="" className="" />
         </div>
         <OutLineButton title={"See all dishes"} />
       </div>
