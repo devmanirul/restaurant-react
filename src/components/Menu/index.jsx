@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import MenuLeft from "../../assets/images/menu-item/Menuleft.svg";
 import OutLineButton from "../OutLineButton";
 import MenuList from "./MenuList";
+import { menuItemData } from "../constant/menu.constant";
 
 const Menu = () => {
   const [starters, setStarters] = useState([]);
