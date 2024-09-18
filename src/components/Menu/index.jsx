@@ -9,7 +9,14 @@ const Menu = () => {
   const [mainDishe, setMaindeshe] = useState([]);
   const [dessert, setDessert] = useState([]);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    const st = menuItemData.filter((item) => item.category === "Starters");
+    const md = menuItemData.filter((item) => item.category === "mainDishe");
+    const de = menuItemData.filter((item) => item.category === "Dessert");
+    setStarters(st);
+    setMaindeshe(md);
+    setDessert(de);
+  }, []);
   return (
     <div className="flex flex-row gap-32 container mx-auto py-28">
       {/* left */}
@@ -34,7 +41,10 @@ const Menu = () => {
       </div>
       {/* right */}
       <div className="w-8/12">
-        <MenuList />
+        {/* Starters */}
+        {
+          starters.map
+        }
       </div>
     </div>
   );
