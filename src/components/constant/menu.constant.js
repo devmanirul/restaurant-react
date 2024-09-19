@@ -42,7 +42,6 @@ const menuItemData = [
     category: "Starters",
     img: item4,
   },
-
   {
     id: 5,
     title: "Grilled Salmon with Dil Sauce",
@@ -51,7 +50,6 @@ const menuItemData = [
     category: "Main Dish",
     img: item5,
   },
-
   {
     id: 6,
     title: "Roast Beef with Vegetable",
