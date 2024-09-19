@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import MenuLeft from "../../assets/images/menu-item/Menuleft.svg";
 import OutLineButton from "../OutLineButton";
 import MenuList from "./MenuList";
@@ -17,6 +17,7 @@ const Menu = () => {
     setMaindeshe(md);
     setDessert(de);
   }, []);
+  console.log(menuItemData);
   return (
     <div className="flex flex-row gap-32 container mx-auto py-28">
       {/* left */}
@@ -42,9 +43,9 @@ const Menu = () => {
       {/* right */}
       <div className="w-8/12">
         {/* Starters */}
-        {
-          starters.map
-        }
+        <MenuList heading={"Starters"} items={starters} />
+        <MenuList heading={"Main Dish"} items={mainDishe} />
+        <MenuList heading={"Dessert"} items={dessert} />
       </div>
     </div>
   );
