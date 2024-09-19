@@ -2,6 +2,12 @@ import item1 from "../../assets/images/menu-item/Starters/starter1.svg";
 import item2 from "../../assets/images/menu-item/Starters/starter2.svg";
 import item3 from "../../assets/images/menu-item/Starters/starter3.svg";
 import item4 from "../../assets/images/menu-item/Starters/starter4.svg";
+import item5 from "../../assets/images/menu-item/Main-Dish/main1.svg";
+import item6 from "../../assets/images/menu-item/Main-Dish/main2.svg";
+import item7 from "../../assets/images/menu-item/Main-Dish/main3.svg";
+import item8 from "../../assets/images/menu-item/Main-Dish/main4.svg";
+import item9 from "../../assets/images/menu-item/Dessert/dessert1.svg";
+import item10 from "../../assets/images/menu-item/Dessert/dessert2.svg";
 
 const menuItemData = [
   {
@@ -43,7 +49,7 @@ const menuItemData = [
     description: "Candied Jerusalem artichokes, truffle",
     price: 40,
     category: "Main Dish",
-    img: item1,
+    img: item5,
   },
 
   {
@@ -52,7 +58,7 @@ const menuItemData = [
     description: "Candied Jerusalem artichokes, truffle",
     price: 20,
     category: "Main Dish",
-    img: item1,
+    img: item6,
   },
   {
     id: 7,
@@ -60,7 +66,7 @@ const menuItemData = [
     description: "Candied Jerusalem artichokes, truffle",
     price: 25,
     category: "Main Dish",
-    img: item1,
+    img: item7,
   },
   {
     id: 8,
@@ -68,7 +74,7 @@ const menuItemData = [
     description: "Candied Jerusalem artichokes, truffle",
     price: 30,
     category: "Main Dish",
-    img: item1,
+    img: item8,
   },
   {
     id: 9,
@@ -76,7 +82,7 @@ const menuItemData = [
     description: "Candied Jerusalem artichokes, truffle",
     price: 40,
     category: "Dessert",
-    img: item1,
+    img: item9,
   },
   {
     id: 10,
@@ -84,7 +90,7 @@ const menuItemData = [
     description: "Candied Jerusalem artichokes, truffle",
     price: 20,
     category: "Dessert",
-    img: item1,
+    img: item10,
   },
 ];
 

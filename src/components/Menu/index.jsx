@@ -11,13 +11,13 @@ const Menu = () => {
 
   useEffect(() => {
     const st = menuItemData.filter((item) => item.category === "Starters");
-    const md = menuItemData.filter((item) => item.category === "mainDishe");
+    const md = menuItemData.filter((item) => item.category === "Main Dish");
     const de = menuItemData.filter((item) => item.category === "Dessert");
     setStarters(st);
     setMaindeshe(md);
     setDessert(de);
   }, []);
-  console.log(menuItemData);
+
   return (
     <div className="flex flex-row gap-32 container mx-auto py-28">
       {/* left */}
