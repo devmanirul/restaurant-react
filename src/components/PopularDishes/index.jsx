@@ -1,15 +1,12 @@
-import React from "react";
-import popular1 from "../../assets/images/offer/popular1.png";
-import popular2 from "../../assets/images/offer/popular2.png";
-import popular3 from "../../assets/images/offer/popular3.png";
-import popular4 from "../../assets/images/offer/popular4.png";
 import { popularDishesData } from "../constant/home.constant";
+import OutLineButton from "../OutLineButton";
 import DishCard from "./DishCard";
 
 const PopularDishes = () => {
+  console.log(popularDishesData);
   return (
-    <div className="container mx-auto py-20 ">
-      {/* top */}
+    <div className="container mx-auto py-10">
+      {/* top heading */}
       <div className="max-w-[700px] mx-auto text-center">
         <h3 className="text-black text-lg font-semibold font-josefin border-y border-cream inline-block py-1">
           MENU
@@ -23,10 +20,18 @@ const PopularDishes = () => {
         </p>
       </div>
       <div className="grid grid-cols-4 gap-7">
-        <DishCard />
-        <DishCard />
-        <DishCard />
-        <DishCard />
+        {popularDishesData.map((dish) => (
+          <DishCard
+            key={dish.id}
+            img={dish.img}
+            title={dish.title}
+            description={dish.description}
+            price={dish.price}
+          />
+        ))}
+      </div>
+      <div className="text-center my-14">
+        <OutLineButton title={"See all dishes"} />
       </div>
     </div>
   );

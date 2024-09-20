@@ -19,14 +19,14 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-black border-y-2 border-slate">
-      <div className="container mx-auto flex flex-row items-center justify-between">
+    <div className="bg-black border-y border-[#5c6168]">
+      <div className="container mx-auto flex lg:flex-row flex-col items-center justify-between">
         {/* left navbar */}
-        <div className="flex flex-row">
+        <div className="flex flex-row ">
           {navItems.map((item) => (
             <NavLink
               className={
-                "text-lg text-white py-5 px-6 hover:bg-cream font-josefin"
+                "text-lg text-[#DEDEDE] py-5 px-6 hover:bg-cream font-josefin"
               }
               key={item.id}
               to={item.path}
@@ -36,7 +36,7 @@ const Navbar = () => {
           ))}
         </div>
         {/* right navbar */}
-        <div className="flex flex-row items-center gap-5 text-white text-2xl">
+        <div className="flex flex-row items-center gap-5 text-[#DEDEDE] text-2xl">
           <Link to={"#"}>
             <FaInstagram />
           </Link>

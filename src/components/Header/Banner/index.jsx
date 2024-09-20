@@ -8,7 +8,7 @@ const Banner = () => {
       <div className="container mx-auto flex flex-row items-center gap-32">
         {/* left */}
         <div className="w-full text-white">
-          <h1 className="font-Cormorant font-bold text-8xl">
+          <h1 className="font-Cormorant font-bold lg:text-8xl text-2xl">
             Welcome to Restaurantate
           </h1>
           <p className="text-lg font-josefin mb-11">

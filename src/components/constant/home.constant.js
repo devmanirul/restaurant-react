@@ -4,10 +4,10 @@ import { CiViewList } from "react-icons/ci";
 import avater1 from "../../assets/images/avater/avater-1.svg";
 import avater2 from "../../assets/images/avater/avater-2.svg";
 import avater3 from "../../assets/images/avater/avater-3.svg";
-import Menu1 from "../../assets/images/offer/menu1.jpg";
-import Menu2 from "../../assets/images/offer/menu1.jpg";
-import Menu3 from "../../assets/images/offer/menu1.jpg";
-import Menu4 from "../../assets/images/offer/menu1.jpg";
+import popularDishes1 from "../../assets/images/offer/popular1.png";
+import popularDishes2 from "../../assets/images/offer/popular2.png";
+import popularDishes3 from "../../assets/images/offer/popular3.png";
+import popularDishes4 from "../../assets/images/offer/popular4.png";
 
 const storyList = [
   {
@@ -69,7 +69,7 @@ const popularDishesData = [
   {
     id: 1,
     title: "Chicken Manjoori",
-    img: Menu1,
+    img: popularDishes1,
     description: `Lorem Ipsum is that it has a 
   more-or-less normal`,
     price: 15,
@@ -77,7 +77,7 @@ const popularDishesData = [
   {
     id: 2,
     title: "Chicken Manjoori",
-    img: Menu2,
+    img: popularDishes2,
     description: `Lorem Ipsum is that it has a 
   more-or-less normal`,
     price: 15,
@@ -85,7 +85,7 @@ const popularDishesData = [
   {
     id: 3,
     title: "Chicken Manjoori",
-    img: Menu3,
+    img: popularDishes3,
     description: `Lorem Ipsum is that it has a 
   more-or-less normal`,
     price: 15,
@@ -93,7 +93,7 @@ const popularDishesData = [
   {
     id: 4,
     title: "Chicken Manjoori",
-    img: Menu4,
+    img: popularDishes4,
     description: `Lorem Ipsum is that it has a 
   more-or-less normal`,
     price: 15,

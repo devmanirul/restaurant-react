@@ -4,7 +4,9 @@ import React from "react";
 const OutLineButton = ({ title }) => {
   return (
     <div className="">
-      <button className="py-5 px-8 border border-cream">{title}</button>
+      <button className="py-5 px-8 border border-cream text-cream">
+        {title}
+      </button>
     </div>
   );
 };
