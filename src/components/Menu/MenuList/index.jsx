@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 const MenuList = ({ heading, items }) => {
-  console.log(items);
+
   return (
     <div className="pt-2">
       <h2 className="text-[40px] font-bold font-Cormorant text-black">

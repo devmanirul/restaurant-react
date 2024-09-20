@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 import { testimonialData } from "../constant/home.constant";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import downImage from "../../assets/images/testimonial-down.svg";
+
 
 const Testimonial = () => {
   const settings = {
@@ -46,10 +46,6 @@ const Testimonial = () => {
             ))}
           </Slider>
         </div>
-      </div>
-      {/* down image */}
-      <div className="">
-        <img src={downImage} alt="" className="" />
       </div>
     </div>
   );

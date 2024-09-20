@@ -4,7 +4,7 @@ import Banner from "../../components/Header/Banner";
 import Story from "../../components/Story";
 import Menu from "../../components/Menu";
 import Testimonial from "../../components/Testimonial";
-import Offer from "../../components/Offer/Offer";
+import SpecialOffer from "../../components/SpecialOffer";
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
       <Story />
       <Menu />
       <Testimonial />
-      <Offer />
+      <SpecialOffer />
     </div>
   );
 };
