@@ -4,6 +4,10 @@ import { CiViewList } from "react-icons/ci";
 import avater1 from "../../assets/images/avater/avater-1.svg";
 import avater2 from "../../assets/images/avater/avater-2.svg";
 import avater3 from "../../assets/images/avater/avater-3.svg";
+import Menu1 from "../../assets/images/offer/menu1.jpg";
+import Menu2 from "../../assets/images/offer/menu1.jpg";
+import Menu3 from "../../assets/images/offer/menu1.jpg";
+import Menu4 from "../../assets/images/offer/menu1.jpg";
 
 const storyList = [
   {
@@ -61,4 +65,39 @@ const testimonialData = [
   },
 ];
 
-export { storyList, testimonialData };
+const popularDishesData = [
+  {
+    id: 1,
+    title: "Chicken Manjoori",
+    img: Menu1,
+    description: `Lorem Ipsum is that it has a 
+  more-or-less normal`,
+    price: 15,
+  },
+  {
+    id: 2,
+    title: "Chicken Manjoori",
+    img: Menu2,
+    description: `Lorem Ipsum is that it has a 
+  more-or-less normal`,
+    price: 15,
+  },
+  {
+    id: 3,
+    title: "Chicken Manjoori",
+    img: Menu3,
+    description: `Lorem Ipsum is that it has a 
+  more-or-less normal`,
+    price: 15,
+  },
+  {
+    id: 4,
+    title: "Chicken Manjoori",
+    img: Menu4,
+    description: `Lorem Ipsum is that it has a 
+  more-or-less normal`,
+    price: 15,
+  },
+];
+
+export { storyList, testimonialData, popularDishesData };
