@@ -1,8 +1,8 @@
 import React from "react";
-import menu1 from "../../assets/images/offer/menu1.jpg";
-import menu2 from "../../assets/images/offer/menu2.jpg";
-import menu3 from "../../assets/images/offer/menu3.jpg";
-import menu4 from "../../assets/images/offer/menu4.jpg";
+import popular1 from "../../assets/images/offer/popular1.png";
+import popular2 from "../../assets/images/offer/popular2.png";
+import popular3 from "../../assets/images/offer/popular3.png";
+import popular4 from "../../assets/images/offer/popular4.png";
 import { popularDishesData } from "../constant/home.constant";
 import DishCard from "./DishCard";
 
@@ -22,22 +22,12 @@ const PopularDishes = () => {
             letters, as opposed to using 'Content here, content making.`}
         </p>
       </div>
-      {/* images */}
-      {/* <div className="flex flex-row gap-7 mt-10">
-        <div className="">
-          <img src={menu1} alt="" className="w-[672px]" />
-        </div>
-        <div className="">
-          <img src={menu2} alt="" className="w-[672px]" />
-        </div>
-        <div className="">
-          <img src={menu3} alt="" className="w-[672px]" />
-        </div>
-        <div className="">
-          <img src={menu4} alt="" className="w-[672px]" />
-        </div>
-      </div> */}
-      <DishCard />
+      <div className="grid grid-cols-4 gap-7">
+        <DishCard />
+        <DishCard />
+        <DishCard />
+        <DishCard />
+      </div>
     </div>
   );
 };
