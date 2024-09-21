@@ -8,6 +8,8 @@ import popularDishes1 from "../../assets/images/offer/popular1.png";
 import popularDishes2 from "../../assets/images/offer/popular2.png";
 import popularDishes3 from "../../assets/images/offer/popular3.png";
 import popularDishes4 from "../../assets/images/offer/popular4.png";
+import blog1 from "../../assets/images/blog/blog1.png";
+import blog2 from "../../assets/images/blog/blog2.png";
 
 const storyList = [
   {
@@ -100,4 +102,24 @@ const popularDishesData = [
   },
 ];
 
-export { storyList, testimonialData, popularDishesData };
+const blogData = [
+  {
+    id: 1,
+    img: blog1,
+    restaurants: "Restaurants",
+    date: "Feb 22, 2022",
+    title: "The Most Popular Delicious Food Of Mediterranean Cuisine",
+    description:
+      "Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.",
+  },
+  {
+    id: 1,
+    img: blog2,
+    restaurants: "Restaurants",
+    date: "Feb 22, 2022",
+    title: "TElegant Dessert: 10 Tips How to Make It at Home",
+    description:
+      "Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.",
+  },
+];
+export { storyList, testimonialData, popularDishesData, blogData };

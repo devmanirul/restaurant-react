@@ -7,6 +7,7 @@ import Testimonial from "../../components/Testimonial";
 import SpecialOffer from "../../components/SpecialOffer";
 import PopularDishes from "../../components/PopularDishes";
 import OurGrateServices from "../../components/OurGrateServices";
+import Blog from "../../components/Blog";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <SpecialOffer />
       <PopularDishes />
       <OurGrateServices />
+      <Blog />
     </div>
   );
 };
