@@ -3,7 +3,6 @@ import OutLineButton from "../OutLineButton";
 import DishCard from "./DishCard";
 
 const PopularDishes = () => {
-  console.log(popularDishesData);
   return (
     <div className="container mx-auto py-10">
       {/* top heading */}

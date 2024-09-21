@@ -1,4 +1,3 @@
-import React from "react";
 import { storyList } from "../constant/home.constant";
 import Card from "./Card";
 import storyImage from "../../assets/images/story.svg";

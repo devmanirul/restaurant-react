@@ -1,6 +1,4 @@
 /* eslint-disable react/prop-types */
-import React from "react";
-
 const Card = ({ icon: ImageIcon, title, description }) => {
   return (
     <div className="flex flex-row  items-center gap-4">
