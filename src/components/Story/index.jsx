@@ -9,7 +9,7 @@ const Story = () => {
     <section className="py-28 relative bg-lightCream z-0">
       <div className="container mx-auto">
         {/* story top */}
-        <div className="flex flex-row items-center justify-between text-black">
+        <div className="flex lg:flex-row flex-col items-center justify-between text-black">
           {storyList.map((story) => (
             <Card
               Key={story.id}
