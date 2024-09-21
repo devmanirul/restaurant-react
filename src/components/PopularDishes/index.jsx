@@ -30,7 +30,7 @@ const PopularDishes = () => {
           />
         ))}
       </div>
-      <div className="text-center my-14">
+      <div className="text-center my-5">
         <OutLineButton title={"See all dishes"} />
       </div>
     </div>

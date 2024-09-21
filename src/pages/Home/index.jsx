@@ -6,6 +6,7 @@ import Menu from "../../components/Menu";
 import Testimonial from "../../components/Testimonial";
 import SpecialOffer from "../../components/SpecialOffer";
 import PopularDishes from "../../components/PopularDishes";
+import OurGrateServices from "../../components/OurGrateServices";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Testimonial />
       <SpecialOffer />
       <PopularDishes />
+      <OurGrateServices />
     </div>
   );
 };

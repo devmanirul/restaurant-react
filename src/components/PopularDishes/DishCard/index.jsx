@@ -1,9 +1,7 @@
 /* eslint-disable react/prop-types */
-import React from "react";
-
 const DishCard = ({ img, title, description, price }) => {
   return (
-    <div className="col-span-1">
+    <div className="col-span-1 my-10">
       <div className="h-[310px] my-5">
         <img src={img} alt="" className="h-full object-cover" />
       </div>

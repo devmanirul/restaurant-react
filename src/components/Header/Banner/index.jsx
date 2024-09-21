@@ -11,12 +11,12 @@ const Banner = () => {
           <h1 className="font-Cormorant font-bold lg:text-8xl text-2xl">
             Welcome to Restaurantate
           </h1>
-          <p className="text-lg font-josefin mb-11">
+          <p className="text-lg text-[#DFDFDF] font-josefin my-8">
             Simply dummy text of the printing and typesetting industry. Lorem
             Ipsum has been the industry standard dummy .
           </p>
           <Link to={"/menu"}>
-            <button className="font-josefin text-xl p-5 text-white border-2 border-cream px-3">
+            <button className="font-josefin text-xl p-5 text-white border border-cream px-3">
               View Menus
             </button>
           </Link>
