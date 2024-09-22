@@ -8,6 +8,7 @@ import SpecialOffer from "../../components/SpecialOffer";
 import PopularDishes from "../../components/PopularDishes";
 import OurGrateServices from "../../components/OurGrateServices";
 import Blog from "../../components/Blog";
+import Reservation from "../../components/Reservation";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <PopularDishes />
       <OurGrateServices />
       <Blog />
+      <Reservation />
     </div>
   );
 };
