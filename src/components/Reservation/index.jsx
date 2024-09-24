@@ -1,4 +1,3 @@
-// import reserBg from "../../assets/images/background.svg"
 const Reservation = () => {
   return (
     <div

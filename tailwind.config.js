@@ -15,7 +15,7 @@ export default {
         Cormorant: ["Cormorant Infant", "serif"],
       },
       backgroundImage: {
-        "reservation-image": "url('/images/background.svg')",
+        "reservation-image": "url('/images/reserBg.jpg')",
       },
     },
   },
