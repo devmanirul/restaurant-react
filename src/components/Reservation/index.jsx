@@ -1,7 +1,9 @@
-import reserBg from "../../assets/images/reservation/reserBg.jpg";
+// import reserBg from "../../assets/images/background.svg"
 const Reservation = () => {
   return (
-    <div className={`bg-Reservation-image py-48 h-40 border-2 border-red-700`}></div>
+    <div
+      className={`bg-reservation-image py-48 h-40 border-2 border-red-700`}
+    ></div>
   );
 };
 export default Reservation;
