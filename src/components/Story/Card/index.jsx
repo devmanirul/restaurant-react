@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const Card = ({ icon: ImageIcon, title, description }) => {
   return (
-    <div className="flex flex-row  items-center gap-4">
+    <div className="flex md:flex-row flex-col items-center gap-4 md:text-start text-center">
       <div className="text-5xl bg-black text-white p-3 rounded-full  cursor-pointer">
         <ImageIcon />
       </div>

@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 const MenuList = ({ heading, items }) => {
-
   return (
     <div className="pt-2">
       <h2 className="text-[40px] font-bold font-Cormorant text-black">
@@ -9,10 +8,10 @@ const MenuList = ({ heading, items }) => {
       {items.map((item) => (
         <div
           key={item.id}
-          className="flex flex-row gap-5 items-center justify-between mt-5"
+          className="flex md:flex-row flex-col gap-5 items-center justify-between mt-5"
         >
           {/* left */}
-          <div className="w-[12%]">
+          <div className="md:w-[12%]">
             <img
               src={item.img}
               alt=""

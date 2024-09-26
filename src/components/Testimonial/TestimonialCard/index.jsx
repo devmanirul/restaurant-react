@@ -1,11 +1,9 @@
 /* eslint-disable react/prop-types */
-import React from "react";
-
-const TestimonialCard = ({img, name, country, comment}) => {
+const TestimonialCard = ({ img, name, country, comment }) => {
   return (
-    <div className="h-[380px] text-white bg-[#343942] px-10 py-12 w-full">
-      <div className="flex flex-row items-center gap-6 border-b border-b-[#797E89] pb-7 mb-6">
-        <div className="h-20 w-20">
+    <div className="h-[380px] text-white bg-[#343942] md:px-10 md:py-12 py-3 w-full">
+      <div className="flex md:flex-row flex-col items-center gap-6 border-b border-b-[#797E89] pb-7 mb-6">
+        <div className="md:h-20 w-20">
           <img src={img} alt="" />
         </div>
         <div className="">

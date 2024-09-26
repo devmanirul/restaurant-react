@@ -5,21 +5,20 @@ import { testimonialData } from "../constant/home.constant";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
 const Testimonial = () => {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 3,
     arrows: false,
   };
   return (
     <div className="bg-black slider-container">
-      <div className="container mx-auto py-12 gap-28">
+      <div className="container mx-auto md:py-12 py-8 md:gap-28">
         {/* heading section */}
-        <div className="w-full ">
+        <div className="md:w-full md:text-start text-center">
           <h3 className="text-white text-lg font-semibold font-Cormorant  border-y border-cream inline">
             Testimonial
           </h3>
@@ -32,10 +31,10 @@ const Testimonial = () => {
           </p>
         </div>
         {/* Carosol container */}
-        <div className="w-full py-8">
+        <div className="w-full md:py-8 py-5 md:text-start text-center">
           <Slider {...settings}>
             {testimonialData.map((item) => (
-              <div key={item.id} className="pl-10 -translate-x-10">
+              <div key={item.id} className="md:pl-10 pl-3 -translate-x-10">
                 <TestimonialCard
                   img={item.img}
                   name={item.name}
