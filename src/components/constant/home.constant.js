@@ -122,4 +122,14 @@ const blogData = [
       "Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.",
   },
 ];
-export { storyList, testimonialData, popularDishesData, blogData };
+
+const navItems = [
+  { id: 1, title: "Home", path: "/" },
+  { id: 2, title: "About", path: "/about" },
+  { id: 3, title: "Menu", path: "/menu" },
+  { id: 4, title: "Reservation", path: "/reservation" },
+  { id: 5, title: "Gallery", path: "/gallery" },
+  { id: 6, title: "Blog", path: "/blog" },
+  { id: 7, title: "Contact", path: "/contact" },
+];
+export { storyList, testimonialData, popularDishesData, blogData, navItems };
