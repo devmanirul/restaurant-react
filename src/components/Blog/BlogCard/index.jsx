@@ -4,7 +4,7 @@ const BlogCard = ({ img, title, description, restaurants, date }) => {
     <div>
       {/* img */}
       <div className="">
-        <img src={img} alt="" className="" />
+        <img src={img} alt="" className="w-full object-cover" />
       </div>
       {/* bottom */}
       <div className="p-5 md:p-9 border border-slateMid">

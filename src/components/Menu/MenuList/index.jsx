@@ -8,14 +8,14 @@ const MenuList = ({ heading, items }) => {
       {items.map((item) => (
         <div
           key={item.id}
-          className="flex md:flex-row flex-col gap-5 items-center justify-between mt-5"
+          className="w-full flex md:flex-row flex-col gap-5 items-center justify-between mt-5"
         >
           {/* left */}
           <div className="md:w-[12%]">
             <img
               src={item.img}
               alt=""
-              className="rounded-full w[84px] h-[84px] object-cover"
+              className="rounded-full w-[84px] h-[84px] object-cover"
             />
           </div>
           {/* mid */}

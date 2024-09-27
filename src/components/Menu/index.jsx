@@ -36,7 +36,7 @@ const Menu = () => {
           </p>
         </div>
         <div className="">
-          <img src={MenuLeft} alt="" className="" />
+          <img src={MenuLeft} alt="" className="w-full object-cover" />
         </div>
         <OutLineButton title={"See all dishes"} />
       </div>

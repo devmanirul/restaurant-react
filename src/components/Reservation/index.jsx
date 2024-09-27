@@ -35,7 +35,7 @@ const Reservation = () => {
             type={"Number"}
           />
           <Input
-            className={"md:col-span-4 col-span-6 invert text-black"}
+            className={"md:col-span-4 col-span-6 invert text-black outline-none"}
             placeholder={"Timing"}
             type={"time"}
           />

@@ -108,7 +108,7 @@ const blogData = [
     img: blog1,
     restaurants: "Restaurants",
     date: "Feb 22, 2022",
-    title: "The Most Popular Delicious Food Of Mediterranean Cuisine",
+    title: "The Most Popular Delicious Food Of Mediterranean",
     description:
       "Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.",
   },

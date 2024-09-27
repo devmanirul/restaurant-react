@@ -3,7 +3,7 @@ const DishCard = ({ img, title, description, price }) => {
   return (
     <div className="col-span-1 md:my-10">
       <div className="md:h-[310px] my-3 md:my-5">
-        <img src={img} alt="" className="h-full object-cover" />
+        <img src={img} alt="" className="h-full w-full object-cover" />
       </div>
       <div className="flex flex-row justify-between border-b border-b-[#dcdcdc]">
         <h3 className="text-black font-Cormorant font-bold text-2xl md:text-3xl mb-2 md:mb-4">

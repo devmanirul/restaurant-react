@@ -6,8 +6,8 @@ import poster2 from "../../assets/images/offer/offerRight.svg";
 const SpecialOffer = () => {
   return (
     <div>
-      {/* down image */}
-      <div className="">
+      {/* testimonial down image */}
+      <div className="container mx-auto">
         <img src={downImage} alt="" className="" />
       </div>
       {/* offer content section */}
@@ -26,12 +26,12 @@ const SpecialOffer = () => {
           </p>
         </div>
         {/* images */}
-        <div className="flex flex-row gap-7 mt-10">
-          <div className="">
-            <img src={poster1} alt="" className="w-[672px]"/>
+        <div className="w-full flex flex-row gap-7 mt-10">
+          <div className="w-full border">
+            <img src={poster1} alt="" className="w-full object-cover" />
           </div>
-          <div className="">
-            <img src={poster2} alt="" className="w-[672px]" />
+          <div className="w-full border object-cover">
+            <img src={poster2} alt="" className="w-full object-cover" />
           </div>
         </div>
       </div>
