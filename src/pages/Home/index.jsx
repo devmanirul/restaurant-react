@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../../components/Header";
 import Banner from "../../components/Header/Banner";
 import Story from "../../components/Story";
@@ -9,6 +8,7 @@ import PopularDishes from "../../components/PopularDishes";
 import OurGrateServices from "../../components/OurGrateServices";
 import Blog from "../../components/Blog";
 import Reservation from "../../components/Reservation";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -23,6 +23,7 @@ const Home = () => {
       <OurGrateServices />
       <Blog />
       <Reservation />
+      <Footer />
     </div>
   );
 };
