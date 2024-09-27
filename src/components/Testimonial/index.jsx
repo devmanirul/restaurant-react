@@ -10,9 +10,35 @@ const Testimonial = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 3,
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div className="bg-black slider-container">
@@ -31,10 +57,10 @@ const Testimonial = () => {
           </p>
         </div>
         {/* Carosol container */}
-        <div className="w-full md:py-8 py-5 md:text-start text-center">
+        <div className="w-full md:py-8 py-6 md:text-start text-center">
           <Slider {...settings}>
             {testimonialData.map((item) => (
-              <div key={item.id} className="md:pl-10 pl-3 -translate-x-10">
+              <div key={item.id} className="md:pl-10 pl-3 md:-translate-x-10">
                 <TestimonialCard
                   img={item.img}
                   name={item.name}
