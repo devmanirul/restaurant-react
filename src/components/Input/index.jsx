@@ -1,7 +1,5 @@
 /* eslint-disable react/prop-types */
-import { PiLegoSmiley } from "react-icons/pi";
-
-const Input = ({placeholder, className, type}) => {
+const Input = ({ placeholder, className, type }) => {
   return (
     <input
       type={type}

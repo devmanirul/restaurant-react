@@ -3,10 +3,10 @@ import Input from "../Input";
 
 const Reservation = () => {
   return (
-    <div className={`bg-reservation-image py-48`}>
+    <div className={`bg-reservation-image md:py-48 py-10 px-5 md:px-0`}>
       <form
         action=""
-        className="max-w-5xl bg-dark/95 mx-auto px-36 py-32 w-full  bg-black"
+        className="md:max-w-5xl w-full bg-dark/95 mx-auto px-3 md:px-36 py-3 md:py-32 bg-black"
       >
         {/* top heading */}
         <div className="text-center">
@@ -16,13 +16,13 @@ const Reservation = () => {
           <h1 className="text-white text-2xl md:text-[40px] font-bold font-Cormorant mt-3 mb-4">
             Book your table now
           </h1>
-          <p className="text-black text-base md:ext-xl text-center font-normal mt-3 font-josefin">
+          <p className="text-white text-base md:ext-xl text-center font-normal my-5 font-josefin">
             {`Lorem Ipsum is that it has a more-or-less normal distribution of
             letters, as opposed to using 'Content here, content making.`}
           </p>
         </div>
         {/* input field */}
-        <div className="grid grid-cols-12 gap-7 font-josefin">
+        <div className="grid md:grid-cols-12 gap-3 md:gap-7 font-josefin">
           <Input className={"col-span-6"} placeholder={"Name"} type={"text"} />
           <Input
             className={"col-span-6"}
@@ -30,17 +30,17 @@ const Reservation = () => {
             type={"Email"}
           />
           <Input
-            className={"col-span-4"}
+            className={"md:col-span-4 col-span-6"}
             placeholder={"Parson"}
             type={"Number"}
           />
           <Input
-            className={"col-span-4 invert text-black"}
+            className={"md:col-span-4 col-span-6 invert text-black"}
             placeholder={"Timing"}
             type={"time"}
           />
           <Input
-            className={"col-span-4 invert text-black"}
+            className={"md:col-span-4 col-span-6 invert text-black"}
             placeholder={"Date"}
             type={"date"}
           />

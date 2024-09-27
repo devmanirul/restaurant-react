@@ -10,11 +10,11 @@ import Input from "../Input";
 import Button from "../Button";
 const Footer = () => {
   return (
-    <div className="bg-black pt-10">
+    <div className="bg-black pt-5 md:pt-10">
       {/* Top footer */}
       <div className=" md:px-0 flex flex-col md:flex-row justify-between items-center gap-5 md:gap-20 font-josefin container mx-auto">
         {/* left */}
-        <div className="w-full flex flex-row justify-between items-center text-xl font-medium">
+        <div className="w-full flex flex-row justify-center md:justify-between items-center text-xl font-medium">
           <p className="underline text-white text-start cursor-pointer md:inline">
             Instagram Feed
           </p>
@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
 
         {/* right  */}
-        <div className="w-full flex flex-row items-center justify-end gap-5 text-[#DEDEDE] text-2xl">
+        <div className="w-full flex flex-row items-center justify-center md:justify-end gap-5 text-[#DEDEDE] text-2xl">
           <Link to={"#"}>
             <FaInstagram />
           </Link>
@@ -41,9 +41,9 @@ const Footer = () => {
         </div>
       </div>
       {/* footer down */}
-      <div className="w-full flex flex-row gap-5 container mx-auto leading-10 py-16">
+      <div className="w-full flex flex-col md:flex-row justify-center md:justify-normal items-center md:items-start gap-5 container mx-auto leading-10 py-5 md:py-16">
         {/* left */}
-        <div className="w-3/12">
+        <div className="md:w-3/12 text-center md:text-start">
           <h3 className="text-white text-lg font-semibold font-josefin border-y border-cream inline-block py-1">
             CONTACT
           </h3>
@@ -54,18 +54,18 @@ const Footer = () => {
           </p>
         </div>
         {/* mid */}
-        <div className="w-6/12">
+        <div className="md:w-6/12">
           <p className="text-center text-white leading-8 mb-5">
             {" "}
             Join our mailing list for updates, <br /> Get news & offers events.
           </p>
-          <div className="flex flex-row justify-center items-center">
+          <div className="flex md:flex-row flex-col gap-5 md:gap-0 justify-center items-center">
             <Input placeholder={"Email"} />
             <Button title={"Subscribe"} />
           </div>
         </div>
         {/* right */}
-        <div className="w-3/12 text-end">
+        <div className="md:w-3/12 text-center md:text-end">
           <h3 className="text-white text-lg font-semibold font-josefin border-y border-cream inline-block py-1">
             WORKING HOURS
           </h3>
@@ -80,7 +80,7 @@ const Footer = () => {
       </div>
       {/* copyright */}
       <div className="border-t">
-        <div className="py-5 container mx-auto flex flex-row items-center justify-between text-white">
+        <div className="py-5 px-5 md:px-0 container mx-auto flex flex-col md:flex-row gap-5 items-center justify-between text-center md:text-start text-white">
           <p className="">
             © Copyright - Restaurantate | Designed by{" "}
             <Link className="text-cream">VictorFlow</Link> Templates - Powered
