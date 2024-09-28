@@ -1,9 +1,10 @@
 import { useState } from "react";
-import HeaderLogo from "../../../assets/images/HeaderLogo.svg";
+import HeaderLogo from "../../../../assets/images/HeaderLogo.svg";
 import { GrCart } from "react-icons/gr";
 import { RiMenuLine } from "react-icons/ri";
 import { Link, NavLink } from "react-router-dom";
-import { navItems } from "../../constant/home.constant";
+import { navItems } from "../../../Home/constant/home.constant";
+
 import {
   FaFacebook,
   FaInstagram,

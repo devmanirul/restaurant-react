@@ -1,6 +1,5 @@
-import React from "react";
-import Header from "../../components/Header";
-import PageTitle from "../../components/PageTitle";
+import Header from "../../components/Shared/Header";
+import PageTitle from "../../components/Shared/PageTitle";
 
 const Reservation = () => {
   return (

@@ -1,12 +1,11 @@
-import React from "react";
-import Header from "../../components/Header";
-import PageTitle from "../../components/PageTitle";
+import Header from "../../components/Shared/Header";
+import PageTitle from "../../components/Shared/PageTitle";
 
 const Blog = () => {
   return (
     <div>
       <Header />
-      <PageTitle title={"Blog Page"}/>
+      <PageTitle title={"Blog Page"} />
     </div>
   );
 };

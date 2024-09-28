@@ -1,7 +1,7 @@
 import { storyList } from "../constant/home.constant";
 import Card from "./Card";
-import storyImage from "../../assets/images/story.svg";
-import sign from "../../assets/images/sign.svg";
+import storyImage from "../../../assets/images/story.svg";
+import sign from "../../../assets/images/sign.svg";
 
 const Story = () => {
   return (
@@ -70,7 +70,11 @@ const Story = () => {
             <div className="pt-8 flex flex-col justify-center md:justify-start items-center md:items-start">
               <h1 className="text-black">JOSEFINE</h1>
               <div className="mt-5 ">
-                <img src={sign} alt="" className="md:h-full h-14 md:text-start text-center" />
+                <img
+                  src={sign}
+                  alt=""
+                  className="md:h-full h-14 md:text-start text-center"
+                />
               </div>
             </div>
           </div>

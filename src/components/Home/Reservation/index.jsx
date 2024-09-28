@@ -1,5 +1,5 @@
-import Button from "../Button";
-import Input from "../Input";
+import Button from "../../Shared/Button";
+import Input from "../../Shared/Input";
 
 const Reservation = () => {
   return (

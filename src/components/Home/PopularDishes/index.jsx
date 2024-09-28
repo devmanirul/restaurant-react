@@ -1,5 +1,5 @@
 import { popularDishesData } from "../constant/home.constant";
-import OutLineButton from "../OutLineButton";
+import OutLineButton from "../../Shared/OutLineButton";
 import DishCard from "./DishCard";
 
 const PopularDishes = () => {

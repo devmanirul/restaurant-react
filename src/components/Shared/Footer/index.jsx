@@ -4,7 +4,7 @@ import {
   FaPinterest,
   FaTwitter,
 } from "react-icons/fa";
-import footer from "../../assets/images/footer/footerLogo.png";
+import footer from "../../../assets/images/footer/footerLogo.png";
 import { Link } from "react-router-dom";
 import Input from "../Input";
 import Button from "../Button";

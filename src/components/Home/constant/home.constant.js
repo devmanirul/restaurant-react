@@ -1,15 +1,15 @@
 import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineSpeed } from "react-icons/md";
 import { CiViewList } from "react-icons/ci";
-import avater1 from "../../assets/images/avater/avater-1.svg";
-import avater2 from "../../assets/images/avater/avater-2.svg";
-import avater3 from "../../assets/images/avater/avater-3.svg";
-import popularDishes1 from "../../assets/images/offer/popular1.png";
-import popularDishes2 from "../../assets/images/offer/popular2.png";
-import popularDishes3 from "../../assets/images/offer/popular3.png";
-import popularDishes4 from "../../assets/images/offer/popular4.png";
-import blog1 from "../../assets/images/blog/blog1.png";
-import blog2 from "../../assets/images/blog/blog2.png";
+import avater1 from "../../../assets/images/avater/avater-1.svg";
+import avater2 from "../../../assets/images/avater/avater-2.svg";
+import avater3 from "../../../assets/images/avater/avater-3.svg";
+import popularDishes1 from "../../../assets/images/offer/popular1.png";
+import popularDishes2 from "../../../assets/images/offer/popular2.png";
+import popularDishes3 from "../../../assets/images/offer/popular3.png";
+import popularDishes4 from "../../../assets/images/offer/popular4.png";
+import blog1 from "../../../assets/images/blog/blog1.png";
+import blog2 from "../../../assets/images/blog/blog2.png";
 
 const storyList = [
   {

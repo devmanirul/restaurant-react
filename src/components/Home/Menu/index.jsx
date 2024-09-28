@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import MenuLeft from "../../assets/images/menu-item/Menuleft.svg";
-import OutLineButton from "../OutLineButton";
+import MenuLeft from "../../../assets/images/menu-item/Menuleft.svg";
+import OutLineButton from "../../Shared/OutLineButton";
 import MenuList from "./MenuList";
 import { menuItemData } from "../constant/menu.constant";
 
