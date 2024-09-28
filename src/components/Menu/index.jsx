@@ -23,7 +23,7 @@ const Menu = () => {
       {/* left */}
       <div className="md:w-3/12 w-full md:px-0 px-5 flex flex-col gap-8 md:gap-10 md:text-start text-center">
         <div className="">
-          <h3 className="text-black text-lg font-semibold font-Cormorant border-y border-cream inline">
+          <h3 className="text-black text-xl font-semibold font-Cormorant border-y border-cream inline">
             MENU
           </h3>
           <h1 className="text-black text-2xl font-bold font-Cormorant">

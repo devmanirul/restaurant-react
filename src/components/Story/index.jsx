@@ -67,10 +67,10 @@ const Story = () => {
               </div>
             </div>
             {/* bottom */}
-            <div className="pt-8 md:text-start text-center">
+            <div className="pt-8 flex flex-col justify-center md:justify-start items-center md:items-start">
               <h1 className="text-black">JOSEFINE</h1>
-              <div className="mt-5 md:pl-0 pl-24">
-                <img src={sign} alt="" className="md:h-full h-14" />
+              <div className="mt-5 ">
+                <img src={sign} alt="" className="md:h-full h-14 md:text-start text-center" />
               </div>
             </div>
           </div>
