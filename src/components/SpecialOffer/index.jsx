@@ -5,10 +5,12 @@ import poster2 from "../../assets/images/offer/offerRight.svg";
 
 const SpecialOffer = () => {
   return (
-    <div>
+    <div className="w-full">
       {/* testimonial down image */}
-      <div className="container mx-auto">
-        <img src={downImage} alt="" className="" />
+      <div className="bg-[1E1E1E] w-full">
+        <div className="container mx-auto">
+          <img src={downImage} alt="" className="" />
+        </div>
       </div>
       {/* offer content section */}
       <div className="container mx-auto md:py-20 py-10 md:px-0 px-5">
