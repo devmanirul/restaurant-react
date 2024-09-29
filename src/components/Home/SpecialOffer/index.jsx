@@ -1,4 +1,3 @@
-import React from "react";
 import downImage from "../../../assets/images/testimonial-down.svg";
 import poster1 from "../../../assets/images/offer/offerLeft.svg";
 import poster2 from "../../../assets/images/offer/offerRight.svg";

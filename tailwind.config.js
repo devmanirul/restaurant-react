@@ -16,6 +16,7 @@ export default {
       },
       backgroundImage: {
         "reservation-image": "url('/images/reserBg.jpg')",
+        "freshBg-image": "url('/images/freshBg.png')",
       },
     },
   },
