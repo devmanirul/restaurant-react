@@ -2,6 +2,7 @@ import { storyList } from "../constant/home.constant";
 import Card from "./Card";
 import storyImage from "../../../assets/images/story.svg";
 import sign from "../../../assets/images/sign.svg";
+import OutLineButton from "../../Shared/OutLineButton";
 
 const Story = () => {
   return (
@@ -77,6 +78,8 @@ const Story = () => {
                 />
               </div>
             </div>
+            {/* Outlinebuton */}
+            <OutLineButton  />
           </div>
         </div>
       </div>
