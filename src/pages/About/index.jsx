@@ -1,5 +1,7 @@
 import FreshProduct from "../../components/About/FreshProduct";
 import QualityTradition from "../../components/About/QualityTraition";
+import Team from "../../components/About/Team";
+import TestimonialAb from "../../components/About/Testimonial";
 import Reservation from "../../components/Home/Reservation";
 import Footer from "../../components/Shared/Footer";
 import Header from "../../components/Shared/Header";
@@ -12,6 +14,8 @@ const About = () => {
       <PageTitle title={"About Us"} />
       <QualityTradition />
       <FreshProduct />
+      <Team />
+      <TestimonialAb />
       <Reservation />
       <Footer />
     </div>

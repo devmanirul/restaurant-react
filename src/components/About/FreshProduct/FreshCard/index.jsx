@@ -2,8 +2,8 @@
 
 const FreshCard = ({ img, title, describe, see }) => {
   return (
-    <div className="">
-      <div className="flex flex-col items-center justify-center py-10 border-l border-slateMid">
+    <div className="border-l first:border-none border-slateMid">
+      <div className="flex flex-col items-center justify-center py-10 ">
         <div className="">
           <img src={img} alt="" className="" />
         </div>
