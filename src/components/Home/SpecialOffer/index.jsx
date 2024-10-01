@@ -7,8 +7,12 @@ const SpecialOffer = () => {
     <div className="w-full">
       {/* testimonial down image */}
       <div className="bg-[1E1E1E] w-full">
-        <div className="container mx-auto">
-          <img src={downImage} alt="" className="" />
+        <div className="">
+          <img
+            src="https://i.ibb.co.com/1KHMfNN/testimonial-down.png"
+            alt=""
+            className=""
+          />
         </div>
       </div>
       {/* offer content section */}

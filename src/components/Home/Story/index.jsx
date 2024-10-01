@@ -1,6 +1,5 @@
 import { storyList } from "../constant/home.constant";
 import Card from "./Card";
-import storyImage from "../../../assets/images/story.svg";
 import sign from "../../../assets/images/sign.svg";
 import OutLineButton from "../../Shared/OutLineButton";
 
@@ -24,7 +23,11 @@ const Story = () => {
           {/* left */}
           <div className="md:w-6/12 w-11/12 md:ml-0 ml-3">
             <div className="">
-              <img src={storyImage} alt="" className="" />
+              <img
+                src="https://i.ibb.co.com/S586Jj4/story.png"
+                alt=""
+                className=""
+              />
             </div>
           </div>
           {/* mid */}
@@ -78,8 +81,6 @@ const Story = () => {
                 />
               </div>
             </div>
-            {/* Outlinebuton */}
-            <OutLineButton  />
           </div>
         </div>
       </div>

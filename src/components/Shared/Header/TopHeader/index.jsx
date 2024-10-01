@@ -1,5 +1,4 @@
 import { useState } from "react";
-import HeaderLogo from "../../../../assets/images/HeaderLogo.svg";
 import { GrCart } from "react-icons/gr";
 import { RiMenuLine } from "react-icons/ri";
 import { Link, NavLink } from "react-router-dom";
@@ -75,7 +74,11 @@ const TopHeader = () => {
             )}
           </div>
           <div className="w-full flex items-center justify-center">
-            <img src={HeaderLogo} alt="" className="w-44 md:w-[350px]" />
+            <img
+              src="https://i.ibb.co.com/2MR15Z5/Header-Logo.png"
+              alt=""
+              className="w-44 md:w-[350px]"
+            />
           </div>
           <div className="w-full flex flex-row md:justify-end justify-between items-center gap-10">
             <div className="text-[#DEDEDE] text-2xl  cursor-pointer">

@@ -1,11 +1,24 @@
 import { RiDoubleQuotesR } from "react-icons/ri";
 import TestimonialAbCard from "./TestimonialAbCard";
 import { TestimonialAbData } from "../constant/TestimonialAbData";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const TestimonialAb = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: true,
+  };
   return (
     <div className="bg-black">
-      <div className="container mx-auto py-20">
+      <div className="container mx-auto  py-20">
         {/* top heading */}
         <div className="md:w-full flex flex-col gap-5">
           <div className="text-center">
@@ -21,16 +34,18 @@ const TestimonialAb = () => {
           </div>
         </div>
         {/* bottom */}
-        {TestimonialAbData.map((test) => (
-          <div key={test.id} className="">
-            <TestimonialAbCard
-              description={test.description}
-              img={test.img}
-              name={test.name}
-              rank={test.rank}
-            />
-          </div>
-        ))}
+        <Slider {...settings}>
+          {TestimonialAbData.map((test) => (
+            <div key={test.id} className="">
+              <TestimonialAbCard
+                description={test.description}
+                img={test.img}
+                name={test.name}
+                rank={test.rank}
+              />
+            </div>
+          ))}
+        </Slider>
       </div>
     </div>
   );
