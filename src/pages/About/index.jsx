@@ -1,4 +1,5 @@
 import FreshProduct from "../../components/About/FreshProduct";
+import Galary from "../../components/About/Galary";
 import QualityTradition from "../../components/About/QualityTraition";
 import Team from "../../components/About/Team";
 import TestimonialAb from "../../components/About/Testimonial";
@@ -16,6 +17,7 @@ const About = () => {
       <FreshProduct />
       <Team />
       <TestimonialAb />
+      <Galary />
       <Reservation />
       <Footer />
     </div>

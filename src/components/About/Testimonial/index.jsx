@@ -26,7 +26,7 @@ const TestimonialAb = () => {
             <TestimonialAbCard
               description={test.description}
               img={test.img}
-              name={test.img}
+              name={test.name}
               rank={test.rank}
             />
           </div>
