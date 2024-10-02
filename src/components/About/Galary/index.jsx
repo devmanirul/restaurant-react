@@ -1,3 +1,5 @@
+import GalaryCard from "./GalaryCard";
+
 const Galary = () => {
   return (
     <div className="py-32">
@@ -14,49 +16,31 @@ const Galary = () => {
           </div>
         </div>
         {/* galary pic */}
-        <div className="grid grid-cols-4 gap-4">
-          {/* left */}
-          <div className="col-span-1">
-            <div className="">
-              <img
-                src="https://i.ibb.co.com/GVj4r8Y/galary1.png"
-                alt=""
-                className="w-full object-cover"
-              />
-            </div>
-            <div className="">
-              <img
-                src="https://i.ibb.co.com/XtNdd2k/galary2.png"
-                alt=""
-                className="w-full object-cover"
-              />
-            </div>
-          </div>
-          {/* mid */}
-          <div className="col-span-2 row-span-2">
-            <img
-              src="https://i.ibb.co.com/M9G2k77/galary3.png"
-              alt=""
-              className="w-full h-full object-cover"
-            />
-          </div>
-          {/* bottom */}
-          <div className="col-span-1">
-            <div className="">
-              <img
-                src="https://i.ibb.co.com/z5ppftD/galary4.png"
-                alt=""
-                className="w-full object-cover"
-              />
-            </div>
-            <div className="">
-              <img
-                src="https://i.ibb.co.com/yB1V09R/galary5.png"
-                alt=""
-                className="w-full object-cover"
-              />
-            </div>
-          </div>
+        <div className="grid grid-cols-12 grid-rows-12 gap-4">
+          {/* Img 1 */}
+          <GalaryCard
+            className={"row-span-6 col-span-3"}
+            img={"https://i.ibb.co.com/GVj4r8Y/galary1.png"}
+          />
+          {/* Img 2 */}
+          <GalaryCard
+            className={"row-span-12 col-span-6"}
+            img={"https://i.ibb.co.com/XtNdd2k/galary2.png"}
+          />
+          {/* Img 3 */}
+          <GalaryCard
+            className={"row-span-6 col-span-3"}
+            img={"https://i.ibb.co.com/M9G2k77/galary3.png"}
+          />
+          {/* Img 4 */}
+          <GalaryCard
+            className={"row-span-6 col-span-3"}
+            img={"https://i.ibb.co.com/z5ppftD/galary4.png"}
+          />
+          <GalaryCard
+            className={"row-span-6 col-span-3"}
+            img={"https://i.ibb.co.com/yB1V09R/galary5.png"}
+          />
         </div>
       </div>
     </div>
