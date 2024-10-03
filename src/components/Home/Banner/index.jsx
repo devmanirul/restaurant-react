@@ -21,7 +21,7 @@ const Banner = () => {
         </div>
         {/* right */}
         <div className="w-full relative md:px-20 px-14 md:-bottom-20">
-          <div className="md:w-full w-[220px] flex justify-center relative z-10">
+          <div className="border-2 md:w-full w-[220px] flex justify-center relative z-10">
             <img
               src="https://i.ibb.co.com/jgKCHVg/Banner.png"
               alt=""

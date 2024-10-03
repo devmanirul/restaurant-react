@@ -7,6 +7,7 @@ import Reservation from "../pages/Reservation";
 import Gallery from "../pages/Gallery";
 import Contact from "../pages/Contact";
 import Blog from "../pages/Blog";
+import Faq from "../pages/Faq";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/faq",
+    element: <Faq />,
   },
 ]);
 
