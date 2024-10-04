@@ -5,7 +5,12 @@ import { RiDoubleQuotesR } from "react-icons/ri";
 const TestimonialAbCard = ({ description, img, name, rank }) => {
   return (
     <div className="max-w-7xl mx-auto p-4">
-      <div className="px-80 flex flex-col justify-center items-center gap-7">
+      {/* quotes */}
+      <div className="flex flex-row items-center justify-center text-cream text-5xl pb-5">
+        <RiDoubleQuotesR />
+      </div>
+      {/* card description */}
+      <div className="md:px-80 flex flex-col justify-center items-center gap-7">
         <p className="text-center text-white">{description}</p>
         {/* averter */}
         <div className="md:h-20 w-20 relative">

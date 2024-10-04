@@ -3,7 +3,7 @@
 const FreshCard = ({ img, title, describe, see }) => {
   return (
     <div className="border-l first:border-none border-slateMid">
-      <div className="flex flex-col items-center justify-center py-10 ">
+      <div className="flex flex-col items-center justify-center px-5 md:px-0 py-10 ">
         <div className="">
           <img src={img} alt="" className="" />
         </div>
