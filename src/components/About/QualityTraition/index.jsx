@@ -1,8 +1,4 @@
-import qualityPic from "../../../assets/images/about/qualityLeft.png";
-import sign from "../../../assets/images/sign.svg";
 import OutLineButton from "../../Shared/OutLineButton";
-import CEO from "../../../assets/images/about/CEO.png";
-import victor from "../../../assets/images/about/Vector.png";
 
 const QualityTradition = () => {
   return (
@@ -28,7 +24,7 @@ const QualityTradition = () => {
           <h1 className="text-black">JOSEFINE</h1>
           <div className="mt-5 ">
             <img
-              src={sign}
+              src={"https://i.ibb.co.com/3WDXmJs/sign.png"}
               alt=""
               className="md:h-full h-14 md:text-start text-center"
             />
@@ -41,7 +37,11 @@ const QualityTradition = () => {
       {/* right */}
       <div className="md:w-6/12 relative">
         <div className="">
-          <img src={qualityPic} alt="" className="" />
+          <img
+            src={"https://i.ibb.co.com/8KBCh2Q/quality-Left.png"}
+            alt=""
+            className=""
+          />
         </div>
         {/* ceo div */}
         <div className="absolute shadow-[5px_5px_20px_-0px_rgba(0,0,0,0.3)] px-7 py-3 -left-36 -bottom-20 bg-white hidden md:block">
@@ -49,7 +49,11 @@ const QualityTradition = () => {
             {/* top */}
             <div className="flex flex-row gap-5">
               <div className="">
-                <img src={CEO} alt="" className="" />
+                <img
+                  src={"https://i.ibb.co.com/XyHLkyd/CEO.png"}
+                  alt=""
+                  className=""
+                />
               </div>
               <div className="flex flex-col gap-1 justify-center">
                 <h3 className="">Josefine</h3>
@@ -62,11 +66,31 @@ const QualityTradition = () => {
                 Capitalize on low hanging fruit <br /> to identify a ballpark
               </p>
               <div className="flex flex-row gap-1">
-                <img src={victor} alt="" className="" />
-                <img src={victor} alt="" className="" />
-                <img src={victor} alt="" className="" />
-                <img src={victor} alt="" className="" />
-                <img src={victor} alt="" className="" />
+                <img
+                  src={"https://i.ibb.co.com/tckX74n/Vector.png"}
+                  alt=""
+                  className=""
+                />
+                <img
+                  src={"https://i.ibb.co.com/tckX74n/Vector.png"}
+                  alt=""
+                  className=""
+                />
+                <img
+                  src={"https://i.ibb.co.com/tckX74n/Vector.png"}
+                  alt=""
+                  className=""
+                />
+                <img
+                  src={"https://i.ibb.co.com/tckX74n/Vector.png"}
+                  alt=""
+                  className=""
+                />
+                <img
+                  src={"https://i.ibb.co.com/tckX74n/Vector.png"}
+                  alt=""
+                  className=""
+                />
               </div>
             </div>
           </div>

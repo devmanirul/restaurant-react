@@ -1,6 +1,3 @@
-import poster1 from "../../../assets/images/offer/offerLeft.svg";
-import poster2 from "../../../assets/images/offer/offerRight.svg";
-
 const SpecialOffer = () => {
   return (
     <div className="w-full">
@@ -16,7 +13,7 @@ const SpecialOffer = () => {
       </div>
       {/* offer content section */}
       <div className="container mx-auto md:py-20 py-10 md:px-0 px-5">
-        {/* top */}
+        {/* top heading */}
         <div className="max-w-[700px] mx-auto text-center">
           <h3 className="text-black text-lg font-semibold font-josefin border-y border-cream inline-block py-1">
             OFFER
@@ -32,10 +29,18 @@ const SpecialOffer = () => {
         {/* images */}
         <div className="w-full flex flex-row gap-7 mt-10">
           <div className="w-full border">
-            <img src={poster1} alt="" className="w-full object-cover" />
+            <img
+              src={"https://i.ibb.co.com/sQNRvgy/offer-Left.png"}
+              alt=""
+              className="w-full object-cover"
+            />
           </div>
           <div className="w-full border object-cover">
-            <img src={poster2} alt="" className="w-full object-cover" />
+            <img
+              src={"https://i.ibb.co.com/PNXMDFV/offer-Right.png"}
+              alt=""
+              className="w-full object-cover"
+            />
           </div>
         </div>
       </div>

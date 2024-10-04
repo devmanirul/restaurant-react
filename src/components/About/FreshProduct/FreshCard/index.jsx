@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-
 const FreshCard = ({ img, title, describe, see }) => {
   return (
     <div className="border-l first:border-none border-slateMid">

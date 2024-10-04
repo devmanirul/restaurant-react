@@ -1,7 +1,5 @@
 import { storyList } from "../constant/home.constant";
 import Card from "./Card";
-import sign from "../../../assets/images/sign.svg";
-import OutLineButton from "../../Shared/OutLineButton";
 
 const Story = () => {
   return (
@@ -75,7 +73,7 @@ const Story = () => {
               <h1 className="text-black">JOSEFINE</h1>
               <div className="mt-5 ">
                 <img
-                  src={sign}
+                  src={"https://i.ibb.co.com/3WDXmJs/sign.png"}
                   alt=""
                   className="md:h-full h-14 md:text-start text-center"
                 />

@@ -1,20 +1,15 @@
-import freshIcon1 from "../../../assets/images/about/freshIcon1.png";
-import freshIcon2 from "../../../assets/images/about/freshIcon2.png";
-import freshIcon3 from "../../../assets/images/about/freshIcon3.png";
-import freshIcon4 from "../../../assets/images/about/freshIcon3.png";
-
 const freshData = [
   {
     id: "1",
-    img: freshIcon1,
+    img: "https://i.ibb.co.com/rp9N129/fresh-Icon1.png",
     title: "Fresh Product",
     describe: `Professional consider everyone
 probls small niche friendly.`,
-        see: "See more",
+    see: "See more",
   },
   {
     id: "2",
-    img: freshIcon2,
+    img: "https://i.ibb.co.com/HTN650Z/fresh-Icon2.png",
     title: "Skilled Chefs",
     describe: `Professional consider everyone
 probls small niche friendly.`,
@@ -22,7 +17,7 @@ probls small niche friendly.`,
   },
   {
     id: "3",
-    img: freshIcon3,
+    img: "https://i.ibb.co.com/x58kv4m/fresh-Icon3.png",
     title: "Drinks & Juices",
     describe: `Professional consider everyone
 probls small niche friendly.`,
@@ -30,7 +25,7 @@ probls small niche friendly.`,
   },
   {
     id: "4",
-    img: freshIcon4,
+    img: "https://i.ibb.co.com/gPXZqgS/fresh-Icon4.png",
     title: "Vegan Cuisine",
     describe: `Professional consider everyone
 probls small niche friendly.`,

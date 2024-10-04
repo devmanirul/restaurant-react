@@ -1,12 +1,21 @@
 import ServiceCard from "../ServiceCard";
-import calenderIcon from "../../../assets/images/service/Icon1.png";
-import listIcon from "../../../assets/images/service/Icon2.png";
-import bikeIcon from "../../../assets/images/service/Icon3.png";
 
 const servicesList = [
-  { id: 1, title: "Opened 24/7", img: calenderIcon },
-  { id: 2, title: "Special Menus", img: listIcon },
-  { id: 3, title: "Home Delivery", img: bikeIcon },
+  {
+    id: 1,
+    title: "Opened 24/7",
+    img: "https://i.ibb.co.com/30KdKKG/Icon3.png",
+  },
+  {
+    id: 2,
+    title: "Special Menus",
+    img: "https://i.ibb.co.com/4ssC899/Icon1.png",
+  },
+  {
+    id: 3,
+    title: "Home Delivery",
+    img: "https://i.ibb.co.com/BnvHJ2d/Icon2.png",
+  },
 ];
 
 const OurGrateServices = () => {

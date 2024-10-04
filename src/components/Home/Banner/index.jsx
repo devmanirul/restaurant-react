@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <div className="bg-black pt-7">
+    <div className="bg-black py-12 md:py-20">
       <div className="container mx-auto flex md:flex-row flex-col-reverse items-center gap-10 md:gap-32">
         {/* left */}
-        <div className="w-full text-white md:text-start text-center md:px-0 px-3">
+        <div className="md:w-full text-white md:text-start text-center md:px-0 px-3">
           <h1 className="font-Cormorant font-bold lg:text-8xl text-4xl">
             Welcome to Restaurantate
           </h1>
@@ -20,8 +20,8 @@ const Banner = () => {
           </Link>
         </div>
         {/* right */}
-        <div className="w-full relative md:px-20 px-14 md:-bottom-20">
-          <div className="border-2 md:w-full w-[220px] flex justify-center relative z-10">
+        <div className="md:w-full md:relative md:px-0 px-3">
+          <div className="md:w-full flex justify-center md:absolute md:-bottom-96">
             <img
               src="https://i.ibb.co.com/jgKCHVg/Banner.png"
               alt=""

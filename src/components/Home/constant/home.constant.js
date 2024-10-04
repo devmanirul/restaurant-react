@@ -1,15 +1,6 @@
 import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineSpeed } from "react-icons/md";
 import { CiViewList } from "react-icons/ci";
-import avater1 from "../../../assets/images/avater/avater-1.svg";
-import avater2 from "../../../assets/images/avater/avater-2.svg";
-import avater3 from "../../../assets/images/avater/avater-3.svg";
-import popularDishes1 from "../../../assets/images/offer/popular1.png";
-import popularDishes2 from "../../../assets/images/offer/popular2.png";
-import popularDishes3 from "../../../assets/images/offer/popular3.png";
-import popularDishes4 from "../../../assets/images/offer/popular4.png";
-import blog1 from "../../../assets/images/blog/blog1.png";
-import blog2 from "../../../assets/images/blog/blog2.png";
 
 const storyList = [
   {
@@ -35,7 +26,7 @@ const storyList = [
 const testimonialData = [
   {
     id: 1,
-    img: avater1,
+    img: "https://i.ibb.co.com/mvRW7rq/avater-1.png",
     name: "Daniyal Sppra",
     country: "Newyork",
     comment:
@@ -43,7 +34,7 @@ const testimonialData = [
   },
   {
     id: 2,
-    img: avater2,
+    img: "https://i.ibb.co.com/Hr4N0m0/avater-2.png",
     name: "Natasha D",
     country: "Salt Lake City",
     comment:
@@ -51,7 +42,7 @@ const testimonialData = [
   },
   {
     id: 3,
-    img: avater3,
+    img: "https://i.ibb.co.com/9GsJrms/avater-3.png",
     name: "Jack Sparrow",
     country: "San Diego",
     comment:
@@ -59,7 +50,7 @@ const testimonialData = [
   },
   {
     id: 4,
-    img: avater1,
+    img: "https://i.ibb.co.com/mvRW7rq/avater-1.png",
     name: "Daniyal Sppra",
     country: "Newyork",
     comment:
@@ -71,7 +62,7 @@ const popularDishesData = [
   {
     id: 1,
     title: "Chicken Manjoori",
-    img: popularDishes1,
+    img: "https://i.ibb.co.com/QNZt1pg/chicken-Manjoori1.png",
     description: `Lorem Ipsum is that it has a 
   more-or-less normal`,
     price: 15,
@@ -79,7 +70,7 @@ const popularDishesData = [
   {
     id: 2,
     title: "Chicken Manjoori",
-    img: popularDishes2,
+    img: "https://i.ibb.co.com/h15b306/chicken-Manjoori2.png",
     description: `Lorem Ipsum is that it has a 
   more-or-less normal`,
     price: 15,
@@ -87,7 +78,7 @@ const popularDishesData = [
   {
     id: 3,
     title: "Chicken Manjoori",
-    img: popularDishes3,
+    img: "https://i.ibb.co.com/Wc9qPkT/chicken-Manjoori3.png",
     description: `Lorem Ipsum is that it has a 
   more-or-less normal`,
     price: 15,
@@ -95,7 +86,7 @@ const popularDishesData = [
   {
     id: 4,
     title: "Chicken Manjoori",
-    img: popularDishes4,
+    img: "https://i.ibb.co.com/5YPj9nF/chicken-Manjoori4.png",
     description: `Lorem Ipsum is that it has a 
   more-or-less normal`,
     price: 15,
@@ -105,7 +96,7 @@ const popularDishesData = [
 const blogData = [
   {
     id: 1,
-    img: blog1,
+    img: "https://i.ibb.co.com/Xz3f5JT/blog1.png",
     restaurants: "Restaurants",
     date: "Feb 22, 2022",
     title: "The Most Popular Delicious Food Of Mediterranean",
@@ -114,7 +105,7 @@ const blogData = [
   },
   {
     id: 1,
-    img: blog2,
+    img: "https://i.ibb.co.com/9vrfPWD/blog2.png",
     restaurants: "Restaurants",
     date: "Feb 22, 2022",
     title: "TElegant Dessert: 10 Tips How to Make It at Home",
