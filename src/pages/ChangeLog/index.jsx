@@ -1,17 +1,16 @@
-import ErrorDiv from "../../components/Shared";
+import Change from "../../components/Changelog";
 import Footer from "../../components/Shared/Footer";
 import Header from "../../components/Shared/Header";
 import PageTitle from "../../components/Shared/PageTitle";
 
-const ErrorPage = () => {
+const ChangeLog = () => {
   return (
-    <div className="">
+    <div>
       <Header />
-      <PageTitle title={"404"} />
-      <ErrorDiv />
+      <PageTitle title={"Changelog"} />
+      <Change />
       <Footer />
     </div>
   );
 };
-
-export default ErrorPage;
+export default ChangeLog;
