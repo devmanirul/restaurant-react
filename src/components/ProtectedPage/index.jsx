@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
-import Input from "../Shared/Input";
 
 const ProtectedPage = () => {
   return (
     <div className=" flex flex-col items-center justify-center gap-5 py-20">
       <div className="bg-lightCream py-24 px-20 border border-cream text-center">
         <div className="flex flex-col justify-center items-center gap-5">
-          <div className="bg-black rounded-full p-8">
+          <div className="bg-black rounded-full p-10">
             <img
               src={"https://i.ibb.co.com/d0JhHFW/Icon.png"}
               alt=""
@@ -23,7 +22,9 @@ const ProtectedPage = () => {
         </p>
         <div className="flex flex-col items-center justify-between gap-5">
           <input
-            className={"text-black md:py-5 px-8 md:px-9 outline-none border border-black"}
+            className={
+              "text-black md:py-5 px-8 md:px-9 outline-none border border-black"
+            }
             type={"password"}
             placeholder={"Enter Your Password"}
           />
