@@ -4,14 +4,14 @@ const ErrorDiv = () => {
   return (
     <div className="flex flex-col justify-center items-center py-10 md:py-0 md:pb-28">
       {/* top */}
-      <div className="flex flex-row justify-center items-center md:w-[400px] md:h-[450px]">
+      <div className="flex flex-row justify-center items-center">
         <h1 className="md:text-[290px] text-9xl font-bold font-Cormorant">4</h1>
 
-        <div className="">
+        <div className="w-48">
           <img
             src="https://i.ibb.co.com/n3t5HB7/Image.png"
             alt=""
-            className="h-24 md:h-[200px] md:w-[240px]"
+            className=""
           />
         </div>
 
